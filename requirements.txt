@@ -1,0 +1,12 @@
+openai
+tqdm
+trafilatura
+nltk
+python-docx
+langdetect
+grobid_tei_xml
+lxml
+spacy
+pandas
+textstat
+beautifulsoup4
