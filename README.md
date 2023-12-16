@@ -39,6 +39,34 @@ GPT-4:
 python ChatGPT-translate.py --input_path=input.txt --model=gpt-4 --openai_key=password
 ```
 
+## Virtual Environment Setup
+
+Note:
+
+Run: ```python --version``` to see if it is Python 3.6 or above. Run ```python3 --version``` to see if it is aliased under python3 instead. 
+
+If it is `python3` then use `python3` when creating the virtual environment.
+
+First create virtual environment if it doesn't exist:
+(Use python3 here if needed.)
+```
+python -m venv venv
+```
+
+Second activate it:
+```
+source venv/bin/activate
+```
+
+Third install requirements.txt:
+```
+pip install -r requirements.txt
+```
+
+If necessary sometimes dependencies may have changed and no longer works. You can instead run:
+```
+pip install stable_requirements.txt
+```
 
 ## Prerequisites | 要求
 OpenAI API key (https://beta.openai.com/signup/) or Azure

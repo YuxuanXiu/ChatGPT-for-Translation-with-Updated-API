@@ -10,3 +10,4 @@ spacy
 pandas
 textstat
 beautifulsoup4
+tenacity
